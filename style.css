@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: #f5f7fa;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2d3748;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #6b7280;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+.username {
+    background: #cfe8ff;
+    color: #1d9bf0;
+    padding: 28px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+/* Hero */
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background: #f5f7fa;
+    min-height: 85vh;
+}
+
+
+/* Left */
+
+.left {
+    max-width: 500px;
+}
+
+.left h1 {
+    font-size: 42px;
+    line-height: 1.25;
+    color: #4b5563;
+}
+
+.blue {
+    color: #1d9bf0;
+    font-size: 50px;
+}
+
+.left p {
+    margin: 20px 0;
+    color: #9aa3af;
+    line-height: 1.6;
+}
+
+.btn {
+    background: #1d9bf0;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* Right Image */
+
+.right img {
+    width: 500px;
+}
